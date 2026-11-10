@@ -1,11 +1,11 @@
 {
-    "name": "ecom_app",
-    "short_name": "ecom_app",
+    "name": "Electro Store",
+    "short_name": "Electro Store",
     "start_url": ".",
     "display": "standalone",
-    "background_color": "#0175C2",
-    "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "background_color": "#023047",
+    "theme_color": "#219EBC",
+    "description": "Electro Store — Boutique High-Tech & Promotions",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

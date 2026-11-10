@@ -1,7 +1,5 @@
-import 'dart:js';
-
-import 'package:ecom_app/Screens/Product.dart';
-import 'package:ecom_app/Widgets/home/Product_Card.dart';
+import 'package:ecom_app/screens/Product.dart';
+import 'package:ecom_app/widgets/home/Product_Card.dart';
 import 'package:ecom_app/constans.dart';
 import 'package:flutter/material.dart';
 

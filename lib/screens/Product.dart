@@ -18,7 +18,7 @@ List<Product> products = [
     price: 59,
     title: "سماعات لاسلكية",
     subTitle: "جودة صوت عالية",
-    image: "images/airpod.png",
+    image: "assets/images/airpod.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
@@ -27,7 +27,7 @@ List<Product> products = [
     price: 1099,
     title: "جهاز موبايل",
     subTitle: "وأصبح للموبايل قوة",
-    image: "images/mobile.png",
+    image: "assets/images/mobile.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
@@ -36,7 +36,7 @@ List<Product> products = [
     price: 39,
     title: "نظارات ثلاثية الأبعاد",
     subTitle: "لنقلك للعالم الافتراضي",
-    image: "images/class.png",
+    image: "assets/images/class.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
@@ -45,7 +45,7 @@ List<Product> products = [
     price: 56,
     title: "سماعات",
     subTitle: "لساعات استماع طويلة",
-    image: "images/headset.png",
+    image: "assets/images/headset.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
@@ -54,7 +54,7 @@ List<Product> products = [
     price: 68,
     title: "مسجل صوت",
     subTitle: "سجل اللحظات المهمة حولك",
-    image: "images/speaker.png",
+    image: "assets/images/speaker.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),
@@ -63,7 +63,7 @@ List<Product> products = [
     price: 39,
     title: "كاميرات كمبيوتر",
     subTitle: "بجودة ودقة صورة عالية",
-    image: "images/camera.png",
+    image: "assets/images/camera.png",
     description:
         "لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا.",
   ),

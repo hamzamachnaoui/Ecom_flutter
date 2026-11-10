@@ -1,9 +1,23 @@
-import 'package:ecom_app/Screens/home_screen.dart';
-import 'package:ecom_app/constans.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:ecom_app/constans.dart';
+import 'package:ecom_app/providers/auth_provider.dart';
+import 'package:ecom_app/providers/cart_provider.dart';
+import 'package:ecom_app/providers/favorite_provider.dart';
+import 'package:ecom_app/screens/main_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(
+    MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => AuthProvider()),
+        ChangeNotifierProvider(create: (_) => CartProvider()),
+        ChangeNotifierProvider(create: (_) => FavoriteProvider()),
+      ],
+      child: const MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatelessWidget {
@@ -12,10 +26,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme:
-          ThemeData(primaryColor: kPrimaryColor, accentColor: kSecondaryColor),
-      home: HomeScreen(),
+      title: 'Electro Store',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: 'Roboto',
+        primaryColor: kPrimaryColor,
+        scaffoldBackgroundColor: kBackgroundColor,
+        colorScheme: ColorScheme.fromSwatch().copyWith(
+          primary: kPrimaryColor,
+          secondary: kSecondaryColor,
+        ),
+        appBarTheme: const AppBarTheme(
+          backgroundColor: kPrimaryColor,
+          foregroundColor: Colors.white,
+          elevation: 0,
+        ),
+      ),
+      home: const MainScreen(),
     );
   }
 }

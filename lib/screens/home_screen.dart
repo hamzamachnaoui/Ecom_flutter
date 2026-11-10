@@ -1,4 +1,4 @@
-import 'package:ecom_app/Widgets/home/Home_body.dart';
+import 'package:ecom_app/widgets/home/Home_body.dart';
 import 'package:ecom_app/constans.dart';
 import 'package:flutter/material.dart';
 
